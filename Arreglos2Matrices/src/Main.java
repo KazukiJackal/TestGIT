@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        int l = 9;
         int x = 0;
         String Modificaciones = "";
         int CantidadNombres;
