@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int i;
+        int x;
+        String Cambios;
+        String DesdePC;
         //Aquí se harán algunas modificaciones
         
         String nombres[][] = {
@@ -17,8 +19,5 @@ public class Main {
             for(int j = 0; j<nombres[i].length; j++){
                 System.out.println(nombres[i][j]);
             }
-            System.out.println(nombres.indexOf(
-
-            )
-        };
-}
+        }
+}}
