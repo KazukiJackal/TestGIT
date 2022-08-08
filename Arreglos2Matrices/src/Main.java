@@ -1,13 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        int i;
-        //Aquí se harán algunas modificaciones
-        
+    //Aquí se harán algunas modificaciones
+        int i = 0;
+        String cambios = "Nuevos Cambios";        
         String nombres[][] = {
                 {"Jose", "Maria", "Raul"},
                 {"Jean", "Vicente","Lucía"},
                 {"Junior", "Saul", "Laura"}
+        System.out.println(cambios);
     };
        // Saul
         //System.out.println(nombres[2][1]);*/
@@ -17,8 +18,5 @@ public class Main {
             for(int j = 0; j<nombres[i].length; j++){
                 System.out.println(nombres[i][j]);
             }
-            System.out.println(nombres.indexOf(
-
-            )
-        };
+        }
 }
